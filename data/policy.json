@@ -1,0 +1,19 @@
+{
+  "observe_at": [
+    "2026-11-15T10:00:00+08:00",
+    "2026-11-22T19:30:00+08:00"
+  ],
+  "next_threshold_candidates": [
+    65,
+    78,
+    85,
+    92,
+    101,
+    115
+  ],
+  "truck_slots": 8,
+  "truck_fixed_cost_cents": 8900,
+  "promo_budget_cents": 34000,
+  "boxes_per_truck": 230,
+  "max_trial_trucks": 2
+}

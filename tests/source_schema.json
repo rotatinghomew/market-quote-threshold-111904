@@ -1,0 +1,85 @@
+{
+  "price_rules": [
+    [
+      "version",
+      "first_day",
+      "threshold_boxes",
+      "regular_fee_cents",
+      "discount_fee_cents",
+      "sales_channels"
+    ],
+    [
+      "version"
+    ]
+  ],
+  "quotes": [
+    [
+      "quote",
+      "buyer",
+      "purchase_window",
+      "issued_at",
+      "expires_at",
+      "rule_version",
+      "original_boxes",
+      "other_eligibility",
+      "waiver",
+      "offered_fee_cents"
+    ],
+    [
+      "quote"
+    ]
+  ],
+  "orders": [
+    [
+      "order",
+      "quote",
+      "purchase_window",
+      "channel",
+      "boxes",
+      "margin_before_shipping_cents",
+      "booked_at",
+      "returns_close"
+    ],
+    [
+      "order"
+    ]
+  ],
+  "loading": [
+    [
+      "order",
+      "truck",
+      "loaded_boxes",
+      "paid_freight_cents",
+      "used_promo",
+      "known_at"
+    ],
+    [
+      "order"
+    ]
+  ],
+  "returns": [
+    [
+      "order",
+      "returned_boxes",
+      "margin_delta_cents",
+      "known_at"
+    ],
+    [
+      "order"
+    ]
+  ],
+  "open_quotes": [
+    [
+      "quote",
+      "valid_boxes",
+      "reserved_cents",
+      "reserved_truck_slots",
+      "state",
+      "known_at"
+    ],
+    [
+      "quote",
+      "known_at"
+    ]
+  ]
+}
